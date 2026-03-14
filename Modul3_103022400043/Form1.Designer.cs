@@ -32,11 +32,11 @@
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
-            comboBox1 = new ComboBox();
-            comboBox2 = new ComboBox();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            button1 = new Button();
+            cmbSatuanAwal = new ComboBox();
+            cmbSatuanAkhir = new ComboBox();
+            textNilaiAwal = new TextBox();
+            textNilaiAkhir = new TextBox();
+            btnConvert = new Button();
             SuspendLayout();
             // 
             // label1
@@ -75,58 +75,60 @@
             label4.TabIndex = 3;
             label4.Text = "Satuan Akhir";
             // 
-            // comboBox1
+            // cmbSatuanAwal
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "Celcius", "Fahrenheit", "Kelvin", "Reamur" });
-            comboBox1.Location = new Point(90, 153);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(91, 28);
-            comboBox1.TabIndex = 4;
+            cmbSatuanAwal.FormattingEnabled = true;
+            cmbSatuanAwal.Items.AddRange(new object[] { "Celcius", "Fahrenheit", "Kelvin", "Reamur" });
+            cmbSatuanAwal.Location = new Point(90, 153);
+            cmbSatuanAwal.Name = "cmbSatuanAwal";
+            cmbSatuanAwal.Size = new Size(91, 28);
+            cmbSatuanAwal.TabIndex = 4;
             // 
-            // comboBox2
+            // cmbSatuanAkhir
             // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Items.AddRange(new object[] { "Celcius", "Fahrenheit", "Kelvin", "Reamur" });
-            comboBox2.Location = new Point(89, 270);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(92, 28);
-            comboBox2.TabIndex = 5;
+            cmbSatuanAkhir.FormattingEnabled = true;
+            cmbSatuanAkhir.Items.AddRange(new object[] { "Celcius", "Fahrenheit", "Kelvin", "Reamur" });
+            cmbSatuanAkhir.Location = new Point(89, 270);
+            cmbSatuanAkhir.Name = "cmbSatuanAkhir";
+            cmbSatuanAkhir.Size = new Size(92, 28);
+            cmbSatuanAkhir.TabIndex = 5;
             // 
-            // textBox1
+            // textNilaiAwal
             // 
-            textBox1.Location = new Point(239, 154);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(329, 27);
-            textBox1.TabIndex = 6;
+            textNilaiAwal.Location = new Point(239, 154);
+            textNilaiAwal.Name = "textNilaiAwal";
+            textNilaiAwal.Size = new Size(329, 27);
+            textNilaiAwal.TabIndex = 6;
+            textNilaiAwal.TextChanged += textNilaiAwal_TextChanged;
             // 
-            // textBox2
+            // textNilaiAkhir
             // 
-            textBox2.Location = new Point(239, 271);
-            textBox2.Name = "textBox2";
-            textBox2.ReadOnly = true;
-            textBox2.Size = new Size(329, 27);
-            textBox2.TabIndex = 7;
+            textNilaiAkhir.Location = new Point(239, 271);
+            textNilaiAkhir.Name = "textNilaiAkhir";
+            textNilaiAkhir.ReadOnly = true;
+            textNilaiAkhir.Size = new Size(329, 27);
+            textNilaiAkhir.TabIndex = 7;
             // 
-            // button1
+            // btnConvert
             // 
-            button1.Location = new Point(620, 154);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 29);
-            button1.TabIndex = 8;
-            button1.Text = "Convert";
-            button1.UseVisualStyleBackColor = true;
+            btnConvert.Location = new Point(620, 154);
+            btnConvert.Name = "btnConvert";
+            btnConvert.Size = new Size(94, 29);
+            btnConvert.TabIndex = 8;
+            btnConvert.Text = "Convert";
+            btnConvert.UseVisualStyleBackColor = true;
+            btnConvert.Click += btnConvert_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(button1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(comboBox2);
-            Controls.Add(comboBox1);
+            Controls.Add(btnConvert);
+            Controls.Add(textNilaiAkhir);
+            Controls.Add(textNilaiAwal);
+            Controls.Add(cmbSatuanAkhir);
+            Controls.Add(cmbSatuanAwal);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -143,10 +145,10 @@
         private Label label2;
         private Label label3;
         private Label label4;
-        private ComboBox comboBox1;
-        private ComboBox comboBox2;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private Button button1;
+        private ComboBox cmbSatuanAwal;
+        private ComboBox cmbSatuanAkhir;
+        private TextBox textNilaiAwal;
+        private TextBox textNilaiAkhir;
+        private Button btnConvert;
     }
 }
