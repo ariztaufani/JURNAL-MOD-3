@@ -1,0 +1,17 @@
+C:\Users\arizt\Basdat\Modul3_103022400043\bin\Debug\net10.0-windows\Modul3_103022400043.exe
+C:\Users\arizt\Basdat\Modul3_103022400043\bin\Debug\net10.0-windows\Modul3_103022400043.deps.json
+C:\Users\arizt\Basdat\Modul3_103022400043\bin\Debug\net10.0-windows\Modul3_103022400043.runtimeconfig.json
+C:\Users\arizt\Basdat\Modul3_103022400043\bin\Debug\net10.0-windows\Modul3_103022400043.dll
+C:\Users\arizt\Basdat\Modul3_103022400043\bin\Debug\net10.0-windows\Modul3_103022400043.pdb
+C:\Users\arizt\Basdat\Modul3_103022400043\obj\Debug\net10.0-windows\Modul3_103022400043.Form1.resources
+C:\Users\arizt\Basdat\Modul3_103022400043\obj\Debug\net10.0-windows\Modul3_103022400043.csproj.GenerateResource.cache
+C:\Users\arizt\Basdat\Modul3_103022400043\obj\Debug\net10.0-windows\Modul3_103022400043.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arizt\Basdat\Modul3_103022400043\obj\Debug\net10.0-windows\Modul3_103022400043.AssemblyInfoInputs.cache
+C:\Users\arizt\Basdat\Modul3_103022400043\obj\Debug\net10.0-windows\Modul3_103022400043.AssemblyInfo.cs
+C:\Users\arizt\Basdat\Modul3_103022400043\obj\Debug\net10.0-windows\Modul3_103022400043.csproj.CoreCompileInputs.cache
+C:\Users\arizt\Basdat\Modul3_103022400043\obj\Debug\net10.0-windows\Modul3_103022400043.sourcelink.json
+C:\Users\arizt\Basdat\Modul3_103022400043\obj\Debug\net10.0-windows\Modul3_103022400043.dll
+C:\Users\arizt\Basdat\Modul3_103022400043\obj\Debug\net10.0-windows\refint\Modul3_103022400043.dll
+C:\Users\arizt\Basdat\Modul3_103022400043\obj\Debug\net10.0-windows\Modul3_103022400043.pdb
+C:\Users\arizt\Basdat\Modul3_103022400043\obj\Debug\net10.0-windows\Modul3_103022400043.genruntimeconfig.cache
+C:\Users\arizt\Basdat\Modul3_103022400043\obj\Debug\net10.0-windows\ref\Modul3_103022400043.dll

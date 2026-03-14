@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\arizt\\Basdat\\Modul3_103022400043\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A012520E-7B17-4137-B0B3-97486C7BB8D1}|Modul3_103022400043.csproj|c:\\users\\arizt\\basdat\\modul3_103022400043\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A012520E-7B17-4137-B0B3-97486C7BB8D1}|Modul3_103022400043.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{EA9560BA-1BD4-8530-7C61-5A40E81FF5E0}|Modul3_103022400043.csproj|c:\\users\\arizt\\basdat\\modul3_103022400043\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EA9560BA-1BD4-8530-7C61-5A40E81FF5E0}|Modul3_103022400043.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +22,8 @@
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\arizt\\Basdat\\Modul3_103022400043\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\arizt\\Basdat\\Modul3_103022400043\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\arizt\\Basdat\\Modul3_103022400043\\Form1.cs [Design]*",
+              "RelativeToolTip": "Form1.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-14T00:50:41.822Z",
               "EditorCaption": " [Design]"
